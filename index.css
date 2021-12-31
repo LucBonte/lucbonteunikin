@@ -1,0 +1,852 @@
+body
+{
+	margin: 0px;
+
+}   
+header
+{
+	line-height: 0px;
+	background-color: rgba(112,119,217,1);
+	height: 50px;
+	position: fixed;
+	width: 100%;
+}                                                                                                                                                   
+nav
+{
+	margin-left: 90px;
+	font-size: 22px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+a:hover
+{
+	color: rgb(5,80,217);
+}
+.forma
+{
+	margin-top: 10px;
+}
+h1
+{
+	text-align: center;
+	color: blue;
+	font-size: 30px;
+	-webkit-animation: color-change 1s infinite;
+	-moz-animation:color-change 1s infinite;
+	-o-animation: color-change 1s infinite;
+	-ms-animation: color-change 1s infinite;
+	animation: color-change 1s infinite;
+}
+@-webkit-keyframes color-change
+{
+	0%{ color: rgb(63,72,204); }
+	50%{color: rgb(109,22,110);}
+	100%{color:rgb(61,43,43);}
+}
+@-moz-keyframes color-change 
+{
+	0%{ color: rgb(63,72,204); }
+	50%{color: rgb(109,22,110);}
+	100%{color:rgb(61,43,43);}
+}
+@-ms-keyframes color-change
+{
+	0%{ color: rgb(63,72,204); }
+	50%{color: rgb(109,22,110));}
+	100%{color:rgb(61,43,43);}
+}
+@keyframes color:-change
+{
+	0%{ color: rgb(63,72,204); }
+	50%{color: rgb(109,22,110);}
+	100%{color:rgb(61,43,43);}
+}
+.secone
+{
+	height: 385px;
+	background-color: rgba(244,244,244,0.38);
+	margin-top: -15px;
+}
+.imga
+{
+	height: 365px;
+	width: 270px;
+	margin-left: 75px;
+	margin-top: 11px;
+}
+.diva
+{
+	float: left;
+	height: 450px;
+	
+}
+.divb
+{
+	margin-left: 455px;
+	margin-right: 70px;
+}
+.pca
+{
+	font-size: 40px;
+	background-color: black;
+	color: white;
+	width: 320px;
+	margin-left: 145px;
+	margin-top:-2px;
+}
+.pcb
+{
+	font-size: 18px;
+	text-align: justify;
+	font-family: Century Gothic,Arial,Candara,Optima,Serif;
+}
+.pcc
+{
+	font-family: Candara,Optima,Century Gothic,Arial,Serif;
+}
+.sectwo
+{
+	height: 585px;
+	margin: 0px;
+	margin-top: -45px;
+}
+.divc
+{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	height: 248px;
+	float: none;
+	margin-top: 45px;
+}
+.divc img
+{
+	width: 290px;
+	height: 190px;
+}
+.divd
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 250px;
+	margin-top: -15px;
+}
+.divd img
+{
+	width: 290px;
+	height: 190px;
+}
+.sectwo p
+{
+	font-family: Arial;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+footer
+{
+	background-color: black;
+	color: white;
+	height: 280px;
+	font-family: Arial;
+	margin-top: 40px;
+	margin-right: 0px;
+}
+.dive,hr
+{
+	float: left;
+	width: 50%;
+	margin-top: 1px;
+	height: 220px;
+}
+.lignea
+{
+	width: 0px;
+	height: 210px;
+	margin-top: 1px;
+}
+.dive img
+{
+	height: 15px;
+	width: 16px;
+}
+.inputa
+{
+	width: 380px; 
+	height: 21px;
+	margin-left: 35px;
+}
+.inputb
+{
+	height: 32px;
+	margin-left: 35px;
+}
+.divf .formb
+{
+	padding-left: 850px;
+}
+.sidea
+{
+	float: left;
+	padding-left: 55px;
+}
+.sideb
+{
+	padding-left: 280px;
+	
+}
+.sidea p ,.sideb p
+{
+		font-size: 16px;	
+}
+.divf .pdc
+{
+	text-align: left;
+	margin-top: 25px;
+	margin-left: 780px;
+	font-size: 20px;
+}
+.dive .cont
+{
+	text-align: center;
+	font-size: 20px;
+}
+.num
+{
+	padding-left: 55px;
+	line-height: 1px; 
+}
+.pfin
+{
+	font-size: 11px;
+	margin-top: -68px;
+	text-align: center;
+}
+@media (max-width: 658px)
+{
+	header
+	{
+		height: auto;
+	}
+	nav
+	{
+		display: flex;
+		flex-direction: column;
+		font-size: 24px;
+		margin-left: 110px;
+		height: 335px;
+	}
+	.forma
+	{
+		margin-left: -80px;
+	}
+	.pa
+	{
+		font-size: 35px;
+		margin-left: -70px;
+	}
+	h1
+	{
+		font-size: 35px;
+		margin-top: 295px;
+	}
+	.secone
+	{
+		height: 770px;
+	}
+	.diva
+	{
+		float: none;
+		height: auto;
+	}
+	.divb
+	{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.imga
+	{
+		height: 345px;
+		width: 250px;
+		margin-left: 10px;
+		margin-top: 11px;
+	}
+	.pca
+	{
+		font-size: 35px;
+		background-color: black;
+		color: white;
+		width: 320px;
+		margin-left: 15px;
+		margin-top:-2px;
+	}	
+	.pcb
+	{
+		font-size: 21px;
+		text-align: justify;
+		font-family: Century Gothic,Arial,Candara,Optima,Serif;
+	}
+	.pcc
+	{
+		margin-top: -10px;
+		font-size: 20px;
+	}
+	.sectwo
+	{
+		height: 2000px;
+		margin: 0px;
+	}
+	.sectwo p
+	{
+		text-align: left;
+	}
+	.divc
+	{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		float: none;
+		margin-top: -50px;
+		padding-top: 10px;
+		margin-left: 5px;
+	}
+	.divd
+	{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		margin-top: -20px;
+		margin-left: 5px;
+		
+	}
+	.divc img
+	{
+		width: 280px;
+		height: 180px;
+	}
+	.divc p, .divd p
+	{
+		font-size: 20px;
+	}
+	.divd img
+	{
+		width: 280px;
+		height: 180px;
+	}
+	footer
+	{
+		background-color: black;
+		color: white;
+		height: auto;
+		font-family: Arial;
+		margin-top: 155px;
+	}
+	.dive,hr
+	{
+		float: none;
+		width: auto;
+		margin-top: 1px;
+		height: auto;
+	}
+	.dive img
+	{
+		height: 15px;
+		width: 16px;
+	}
+	.divf .formb
+	{
+		padding-left: 245px;
+	}
+	.sidea
+	{
+		float: none;
+		padding-left: 10px;
+		margin-top: -25px;
+		font-size: 21px;
+	}
+	.sideb
+	{
+		padding-left: 10px;
+		margin-top: -25px;
+		font-size: 21px;
+	}
+	.pdc
+	{
+		text-align: left;
+		margin-left: 10px;
+		font-size: 21px;
+	}
+	.cont
+	{
+		text-align: left;
+		font-size: 21px;
+	}
+	.num
+	{
+		padding-left: 55px;
+		line-height: 1px; 
+		font-size: 21px;
+	}
+	.lignea
+	{
+		width: auto;
+		height: 0px;
+		margin: 0px;
+	}
+	.inputa
+	{
+		width: 250px; 
+		height: 21px;
+	}
+	footer .pfin
+	{
+		margin-top: -28px;
+		font-size: 16px;
+	}
+}
+@media (min-width: 659px) and (max-width: 894px)
+{
+	nav
+	{
+		margin-left: 175px;
+		font-size: 25px;
+		height: 50px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.secone
+	{
+		height: 580px;
+		background-color: rgba(244,244,244,0.38);
+		margin-top: -15px;
+	}
+	.imga
+	{
+		height: 375px;
+		width: 270px;
+		margin-left: 10px;
+		margin-top: 11px;
+	}
+	.divb
+	{
+		margin-left: 325px;
+		margin-right: 10px;
+	}
+	.pca
+	{
+		font-size: 38px;
+		background-color: black;
+		color: white;
+		width: 325px;
+		margin-left: 25px;
+		margin-top:-2px;
+	}
+	.pcb
+	{
+		font-size: 21px;
+		text-align: justify;
+		font-family: Century Gothic,Arial,Candara,Optima,Serif;
+		margin-top: -15px;
+	}
+	.pcc
+	{
+		margin-top: 15px;
+		font-family: Candara,Optima,Century Gothic,Arial,Serif;
+		font-size: 22px;
+	}
+	.sectwo
+	{
+		height: auto;
+		margin-top: -75px;
+	}
+	.divc
+	{
+		display: flex;
+		flex-direction: column;
+		flex-direction: none;
+		height: auto;
+		float: none;
+		padding-top: 25px;
+		margin-top: 55px;
+	}
+	.arta
+	{
+		margin-left: 50px;
+	}
+	.artb
+	{
+		margin-top: -275px;
+		margin-left: 280px;
+		padding-left: 80px;
+	}
+	.artc
+	{
+		margin-left: 50px;
+	}
+	.artd
+	{
+		margin-top: -275px;
+		margin-left: 280px;
+		padding-left: 80px;	
+	}
+	.arte
+	{
+		margin-left: 50px;
+	}
+	.artf
+	{
+		margin-top: -275px;
+		margin-left: 280px;
+		padding-left: 80px;
+	}
+	.artg
+	{
+		margin-left: 50px;
+	}
+	.arth
+	{
+		margin-top: -275px;
+		margin-left: 280px;
+		padding-left: 80px;
+	}
+
+	.divc img
+	{
+		width: 290px;
+		height: 190px;
+	}
+	.divd
+	{
+		display: flex;
+		flex-direction: column;
+		flex: none;
+		height: auto;
+	}
+	.divd img
+	{
+		width: 290px;
+		height: 190px;
+	}
+	.sectwo p
+	{
+		font-family: Arial;
+		text-align: left;
+		font-size: 19px;
+		font-weight: bold;
+	}
+	footer
+	{
+		background-color: black;
+		color: white;
+		height: 485px;
+		font-family: Arial;
+		margin-top: 25px;
+	}
+	.dive,hr
+	{
+		float: none;
+		width: auto;
+		margin-top: 1px;
+		height: auto;
+	}
+	.dive img
+	{
+		height: 15px;
+		width: 16px;
+	}
+	.divf .formb
+	{
+		padding-left: 425px;
+	}
+	.sidea
+	{
+		float: none;
+		margin-left: 180px;
+		margin-top: -5px;
+		font-size: 18px;
+	}
+	.sideb
+	{
+		margin-left: 180px;
+		font-size: 18px;
+	}
+	.pdc
+	{
+		text-align: left;
+		margin-left: 10px;
+		font-size: 25px;
+	}
+	.cont
+	{
+		text-align: left;
+		margin-left: 10px;
+		font-size: 25px;
+	}
+	.num
+	{
+		padding-left: 55px;
+		line-height: 1px; 
+	}
+	.lignea
+	{
+		width: auto;
+		height: 0px;
+		margin: 0px;
+	}
+	.inputa
+	{
+		width: 550px; 
+		height: 21px;
+	}
+	footer .pfin
+	{
+		margin-top: -30px;
+		font-size: 16px;
+	}
+}
+@media (min-width: 895px) and (max-width: 1162px)
+{
+	header
+	{
+		line-height: 0px;
+		background-color: rgba(112,119,217,1);
+		height: 50px;
+		position: fixed;
+		width: 100%;
+	}                                                                                                                                                   
+	nav
+	{
+		margin-left: 200px;
+		font-size: 28px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.forma
+	{
+		margin-left: -40px;
+		margin-top: 15px;
+	}
+	.pa
+	{
+		font-size: 27px;
+		margin-left: 0px;
+	}
+	h1
+	{
+		font-size: 48px;
+	}
+	.secone
+	{
+		height: 540px;
+		background-color: rgba(244,244,244,0.38);
+	}
+	.imga
+	{
+		height: 365px;
+		width: 270px;
+		margin-left: 10px;
+		margin-top: 11px;
+	}
+	.diva
+	{
+		float: left;
+		height: 450px;
+	}
+	.divb
+	{
+		margin-left: 295px;
+		margin-right: 10px;
+	}
+	.pca
+	{
+		font-size: 40px;
+		background-color: black;
+		color: white;
+		width: 410px;
+		margin-left: 5px;
+		margin-top:-2px;
+	}
+	.pcb
+	{
+		font-size: 25px;
+		text-align: justify;
+		font-family: Century Gothic,Arial,Candara,Optima,Serif;
+	}
+	.pcc
+	{
+		font-family: Candara,Optima,Century Gothic,Arial,Serif;
+		font-size: 25px;
+	}
+	.sectwo
+	{
+		height: auto;
+		margin: 0px;
+	}
+	.divc
+	{
+		display: flex;
+		flex-direction: column;
+		flex-direction: none;
+		height: auto;
+		float: none;
+		padding-top: 15px;
+		margin-top: 35px;
+	}
+	.arta
+	{
+		margin-left: 10px;
+	}
+	.artb
+	{
+		margin-left: 305px;
+		margin-top: -280px;
+	}
+	.artc
+	{
+		margin-left: 600px;
+		margin-top: -278px;
+	}
+	.artd
+	{
+		margin-left: 10px;	
+		margin-top: 25px;
+	}
+	.arte
+	{
+		margin-left: 305px;
+		margin-top: -278px;
+	}
+	.artf
+	{
+		margin-left: 600px;
+		margin-top: -280px;
+	}
+	.artg
+	{
+		margin-left: 180px;
+		margin-top: 30px;
+	}
+	.arth
+	{
+		margin-left: 488px;
+		margin-top: -280px;
+	}
+	.divc img
+	{
+		width: 290px;
+		height: 190px;
+	}
+	.divd
+	{
+		display: flex;
+		flex-direction: column;
+		flex: none;
+		height: auto;
+	}
+	.divd img
+	{
+		width: 290px;
+		height: 190px;
+	}
+	.sectwo p
+	{
+		font-family: Arial;
+		text-align: left;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	footer
+	{
+		background-color: black;
+		color: white;
+		height: 285px;
+		font-family: Arial;
+		margin-top: 75px;
+		margin-right: 0px;
+	}
+	.dive,hr
+	{
+		float: left;
+		width: 54%;
+		margin-top: 1px;
+		height: 220px;
+	}
+	.lignea
+	{
+		width: 0px;
+		height: 230px;
+		margin-top: 1px;
+	}
+	}
+	.dive img
+	{
+		height: 15px;
+		width: 16px;
+	}
+	footer .inputa
+	{
+		width: 325px; 
+		height: 21px;
+	}
+	.inputb
+	{
+		height: 31px;
+	}
+	.divf .formb
+	{
+		margin-left: -265px;
+	}
+	.sidea
+	{
+		float: left;
+		padding-left: 18px;
+		font-size: 21px;
+	}
+	.sideb
+	{
+		padding-left: 225px;
+		font-size: 21px;
+	}
+	.pdc
+	{
+		text-align: center;
+		font-size: 26px;
+	}
+	.cont
+	{
+		text-align: center;
+		font-size: 26px;
+		margin-top: 2px;
+	}
+	.num
+	{
+		padding-left: 55px;
+		line-height: 1px; 
+	}
+	footer .pfin
+	{
+		font-size: 19px;
+		margin-top: -5px;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+	
